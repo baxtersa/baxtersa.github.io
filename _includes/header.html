@@ -46,18 +46,21 @@
 				</li>			
 			{% endif %}
 		</div>
-		<div class="description"> {{ site.motto }} </div>		
-		<ul class="social-links">
+		<div class="description"> {{ site.motto }} </div>
+		<div class="header-row">
+		  <ul class="social-links">
 			<li>
-				<a href="https://github.com/{{ site.github_username }}" title="Github">
-					<img width="19px" height="19px" src="/images/github.png"/>
-				</a>
+			  <a href="mailto:sbaxter@cs.umass.edu" title="Email">
+				{{ site.email }}
+			  </a>
 			</li>
 			<li>
-				<a href="/feed.xml" title="RSS">
-					<img width="19px" height="19px" src="/images/rss.png"/>
-				</a>
+			  <a href="https://github.com/{{ site.github_username }}" title="Github">
+				<img width="19px" height="19px" src="/images/github.png"/>
+				{{ site.github_username }}
+			  </a>
 			</li>
-		</ul>		
+		  </ul>
+		</div>
 	</div>
 </header>
