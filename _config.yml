@@ -2,8 +2,10 @@
 title: Sam Baxter
 motto: >
   I am a first year PhD student at UMass Amherst working in the
-  PLASMA Lab with Arjun Guha. Before this I worked at iZotope, Inc.
-  developing desktop audio software and hacking together Linux
+  <a href="http://plasma.cs.umass.edu"">PLASMA Lab</a> with
+  <a href="http://http://people.cs.umass.edu/~arjun">Arjun Guha</a>.
+  Before this I worked at <a href="https://www.izotope.com/">iZotope,
+  Inc.</a> developing desktop audio software and hacking together Linux
   device drivers. My research interests are programming languages
   and building and verifying systems.
 email: sbaxter@cs.umass.edu
