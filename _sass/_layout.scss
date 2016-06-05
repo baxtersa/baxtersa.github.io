@@ -11,14 +11,14 @@ html,body {
 }
 
 .header-container {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0px auto;
 }
 
 .nav {
 	color: #707070;
 	text-transform: uppercase;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
     font-family: "Montserrat",sans-serif;
     display:inline;
@@ -76,6 +76,13 @@ li {
     color: #FFF;
 }
 
+#me {
+    width: 80%;
+    padding-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .description {
     padding-top: 10px;
     font-size: 16px;
@@ -89,6 +96,7 @@ li {
 }
 
 .social-links {
+    text-align: center;
     margin-left: 0px;
     margin-bottom: 0px;
 }
@@ -108,6 +116,18 @@ li {
 }
 
 .social-links a:hover {
+	opacity: 0.6;
+}
+
+.description a {
+    color: #959BA6;
+}
+
+.description a:active {
+	opacity: 0.6;
+}
+
+.description a:hover {
 	opacity: 0.6;
 }
 
