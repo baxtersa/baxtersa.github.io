@@ -2,6 +2,7 @@
 layout: post
 title:  "OCaml Module Namespaces"
 date:   2016-08-31 18:35:46 -0400
+comments: true
 ---
 Here's a fun thing I learned about OCaml today: OCaml's linker has issues with module namespaces. Below is my understanding of the issue, let me know if I'm mistaken! This is a hard-to-diagnose issue if you don't know what to look for, so hopefully this saves someone some time debugging.
 
