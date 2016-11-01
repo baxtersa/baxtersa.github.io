@@ -8,7 +8,7 @@ Here's a fun thing I learned about OCaml today: OCaml's linker has issues with m
 
 In following snippet where `A` is an external module dependency,
 
-```
+```ocaml
 ...
 open A
 open M
@@ -21,7 +21,7 @@ At the root of the problem, compilation units in OCaml are represented by a modu
 
 What's the error look like when you unknowingly come across this issue? Well, that depends on how the failure manifests itself in your program. Here's the scenario that led me down this path:
 
-```
+```ocaml
 ...
 open Async.Std
 ...
@@ -42,7 +42,7 @@ What can you do?
 
 It turns out you see a lot of OCaml projects with long, hopefully-unique prefixes on all of their filenames. This ends up looking like
 
-```
+```ocaml
 ...
 MyPkg_list.ml
 MyPkg_set.ml
@@ -56,7 +56,7 @@ Alternatively, OCaml offers 'packed' modules. Conceptually, this is like giving 
 
 As of OCaml 4.02, there's at least some relief to this problem. Whereas previously
 
-```
+```ocaml
 module List = Core_kernel_list
 ```
 
