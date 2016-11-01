@@ -37,6 +37,8 @@ open Async.Std
 
 My build system links in the async package from JaneStreet, and my src directory includes a file named `monitor.ml`. My src-tree-local compunit for `monitor.ml` produces the `Monitor` module, and this wreaks subtle havoc on OCaml's linker. Compilation succeeds, but at runtime my executable spawns child processes, continually core dumping, until my machine runs out of memory and comes to a grinding halt. Renaming `monitor.ml` is all it takes to solve the issue if you are less fortunate than I was in figuring out the cause of the problem.
 
+<br />
+
 What can you do?
 ===
 
