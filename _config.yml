@@ -1,13 +1,13 @@
 # Site settings
 title: Sam Baxter
 motto: >
-  I am a first year PhD student at UMass Amherst working in the
-  <a href="http://plasma.cs.umass.edu"">PLASMA Lab</a> with
+  I am a PhD student at the University of Massachusetts Amherst working
+   in the <a href="http://plasma.cs.umass.edu"">PLASMA Lab</a> with
   <a href="http://http://people.cs.umass.edu/~arjun">Arjun Guha</a>.
   Before this I worked at <a href="https://www.izotope.com/">iZotope,
   Inc.</a> developing desktop audio software and hacking together Linux
-  device drivers. My research interests are programming languages
-  and building and verifying systems.
+  device drivers. My research interests are programming languages, building
+  and verifying systems, and computer networks.
 email: sbaxter@cs.umass.edu
 description: > # this means to ignore newlines until "baseurl:"
   Sam Baxter - First-year PhD student at UMass Amherst working with
