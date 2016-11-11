@@ -4,7 +4,7 @@ title:  "P4 Developer Day"
 date:   2016-11-08 15:39:21 -0400
 comments: true
 ---
-I recently attended P4 Developer Day at Stanford University. The single-day event was sponsored by a handful of SDN-related companies, some industry/consumer driven, and others derived from academic work like P4 itself. Coming into the day I had only read the [original paper](http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000004.pdf) _Programming Protocol-Independent Packet Processors_, but I encourage people to check out the [p4lang](http://github.com/p4lang/p4lang) repo and follow the tutorials directory. I apologize for any aliteration that follows, but with a paper title as such, it is inevitable.
+I recently attended P4 Developer Day at Stanford University. The single-day event was sponsored by a handful of SDN-related companies, some industry/consumer driven, and others derived from academic work like P4 itself. Coming into the day I had only read the [original paper](http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000004.pdf) _Programming Protocol-Independent Packet Processors_, but I encourage people to check out [p4lang](http://github.com/p4lang) and follow the tutorials. I apologize for any aliteration that follows, but with a paper title as such, it is inevitable.
 
 <br />
 
