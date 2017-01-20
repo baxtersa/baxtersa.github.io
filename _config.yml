@@ -1,21 +1,42 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Sam Baxter
-motto: >
-  I am a PhD student at the University of Massachusetts Amherst working
-   in the <a href="http://plasma.cs.umass.edu"">PLASMA Lab</a> with
-  <a href="http://http://people.cs.umass.edu/~arjun">Arjun Guha</a>.
-  Before this I worked at <a href="https://www.izotope.com/">iZotope,
-  Inc.</a> developing desktop audio software and hacking together Linux
-  device drivers. My research interests are programming languages, building
-  and verifying systems, and computer networks.
 email: sbaxter@cs.umass.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Sam Baxter - First-year PhD student at UMass Amherst working with
-  Prof. Arjun Guha in the PLASMA Lab. Research interests - Programming
-  languages, systems, networks, verification.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://baxtersa.github.io" # the base hostname & protocol for your site
+motto: > # bio
+  I am a PhD student at the University of Massachusetts Amherst working
+  in the [PLASMA lab](http://plasma.cs.umass.edu) with
+  [Arjun Guha](http://http://peoplw.cs.umass.edu/~arjun). Before this I worked at
+  [iZotope, Inc.](https://www.izotope.com) developing desktop audio software 
+  and hacking together Linux device drivers. My research interests are
+  programming languages, building and verifying systems, and computer networks.
+description:
+  Sam Baxter - UMass Amherst PhD student with Prof. Arjun Guha - PLASMA Lab - 
+  Programming Languages, Systems, Networks, Verification
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://baxtersa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  baxtersa
+gpg_public_key: /public-key.txt
+disqus:
+  shortname: baxtersa-github-io
 
 # Build settings
 markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
