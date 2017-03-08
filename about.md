@@ -4,16 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) -->
-
-<!-- You can find the source code for the Jekyll new theme at: -->
-<!-- {% include icon-github.html username="jekyll" %} / -->
-<!-- [minima](https://github.com/jekyll/minima) -->
-
-<!-- You can find the source code for Jekyll at -->
-<!-- {% include icon-github.html username="jekyll" %} / -->
-<!-- [jekyll](https://github.com/jekyll/jekyll) -->
-
 ![me](/images/me.jpg)
 
 <br />
@@ -48,7 +38,7 @@ Contributions
 # Frenetic
 [![frenetic](/images/frenetic.png)](http://www.frenetic-lang.org) is a family of
 languages and tools for network programming, providing a semantic foundation for
-trusting network programs. I ahck on frenetic's compiler internals and
+trusting network programs. I hack on frenetic's compiler internals and
 extensions to the NetKAT semantics, playing with expressions of network
 behaviors and constraints so that network administrators don't have to hate
 themselves.
