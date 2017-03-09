@@ -77,7 +77,7 @@ On Mac:
 Note that you may need to set `LD_LIBRARY_PATH` to the directory containing your
 allocator's shared library to get things to work.
 
-Now let's see this in action:
+Now let's see this in action running `less` in a shell:
 
 | ------------------------------------------------------------------------------------------: |
 |   PID ||    USER || PR || NI ||    VIRT ||  RES || %CPU || %MEM ||   TIME+ ||  S || COMMAND |
@@ -92,9 +92,9 @@ virtual memory is magic and 64-bit address spaces mean we can allocate a `1GB`
 heap per-process and not worry about it unless we actually need to use the full
 heap.
 
-However, we're able to run `bash` commands with evidence that our custom
-allocator is being used! It will also be apparent that your allocator is being
-used if you've made a mistake, in which case it's likely you'll coredump. Yay.
+Still, we're able to run `bash` commands with evidence that our custom allocator
+is being used! It will also be apparent that your allocator is being used if
+you've made a mistake, in which case it's likely you'll coredump. Yay.
 
 Depending on your implementation strategy, you may experience some noticeable,
 and less-desirable properties of your allocator. Since you've caught `malloc`
@@ -105,14 +105,16 @@ this is the case, you can linearly search a linked-list of allocated objects to
 make sure it's not an invalid `free`, but this comes at a performance cost. The
 same approach could be used to catch double `free`s.
 
-Misbehaved `malloc` and `free` calls can cause extra trouble for our system
-because of our in-heap header objects. If we do nothing to protect against an
-invalid free, the state information we maintain in headers can overwrite valid
-objects in our heap. So maybe you want to add some protection. Maybe you like
-living on the edge though.
+<br />
 
 When Things Should Work But Everything Is the Worst
 ===
+
+What happens when you decide to trust this assumption? Misbehaved `malloc` and
+`free` calls can cause extra trouble for our system because of our in-heap
+header objects. If we do nothing to protect against an invalid free, the state
+information we maintain in headers can overwrite valid objects in our heap. So
+maybe you want to add some protection. Maybe you like living on the edge though.
 
 Let's graduate to running `GTK` applications. I've tested `nautilus` and
 `wireshark-gtk`, but I suspect anything that can fit in our fixed-size heap will
@@ -156,8 +158,10 @@ Stack trace of thread 22577:
 ...
 ```
 
-Some other coredumps showed a bunch of `pthreads` calls in the stack trace,
-which in combination with short-lived threads eventually led me to
+Here we see that `nautilus` segfaults in a call to `free` caught by our custom
+`libstatsalloc.so` shared library. Some other coredumps showed a bunch of
+`pthreads` calls in the stack trace, which in combination with short-lived
+threads eventually led me to
 [this](https://sourceware.org/bugzilla/show_bug.cgi?id=20116) really fun bug in
 `glib` < 2.25. Locally building and linking against latest `glib` didn't solve
 the issue though. So, despite it being right there in the coredump stack trace,
@@ -165,10 +169,12 @@ it took me a _long_ time (days) to look into `g_slice_free1` and the associated
 `g_slice_allocator`.
 
 Long story short, `glib` memory slices can delegate `free`ing pointers to the
-system allocator, when those pointers were allocated by its own custom
-allocators. So that's pretty anticlimactic. Fortunately, you can run your binary
-with `G_SLICE=always-malloc` to always defer to the system allocator,
-guaranteeing you only `free` pointers that you `malloc` yourself.
+system allocator, when those pointers were allocated by a custom allocator
+internal to `glib` itself. So that's pretty anticlimactic. Fortunately, you can
+run your binary with `G_SLICE=always-malloc` to always defer to the system
+allocator, guaranteeing you only `free` pointers that you `malloc` yourself.
+After a long time spent debugging my custom allocator, it turned out the
+allocator was fine all along, and my assumptions were incorrect.
 
 Summary
 ===
