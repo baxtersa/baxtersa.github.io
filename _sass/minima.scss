@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 // Define defaults for each variable.
 
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -35,10 +37,14 @@ $on-laptop:        800px !default;
   }
 }
 
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
 // Import partials.
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting",
-  "navigation"
+  "minima/navigation",
+  "minima/syntax-highlighting"
 ;
