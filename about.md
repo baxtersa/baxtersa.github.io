@@ -36,6 +36,18 @@ major languages.
 
 <br />
 
+Workshops
+===
+---
+
+| ------------------------------------ |
+| Year ||     || Venue ||     || Title |
+| :--- || --- || :---- || --- || :---- |
+| 2017 ||     || [NEPLS](http://www.nepls.org/Events/31/) ||    || [**Stopify: Web-based Debugging For Free**](http://www.nepls.org/Events/31/abstracts.html#sbaxter) |
+| ------------------------------------ |
+
+<br />
+
 Education
 ===
 ---
@@ -89,6 +101,8 @@ Awards
 Activities & Service
 ===
 ---
+ - **PLDI Student Volunteer**. Volunteer. June 2017.
+ - **ECOOP Summer School**. Attendee. June 2017.
  - **P4 Developer Day**. Attendee. November 2016.
  - **Women in Engineering and Computing Day**. Volunteer. October 2016.
  - **Oregon Programming Languages Summer School**. Attendee. June - July 2016.
