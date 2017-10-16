@@ -12,42 +12,6 @@ permalink: /about/
 
 <br />
 
-Research
-===
----
-
-# [Stopify](https://github.com/plasma-umass/Stopify)
-Web-based programming environments lack many basic features that programmers
-expect to find in desktop-based IDEs. For example, given a non-terminating
-program, most environments simply crash the browser. Some environments
-implement "infinite loop detectors", but these sacrifice the ability to execute
-long-running, interactive programs. The few exceptions that handle this
-correctly, such as Pyret and WeScheme, have required tremendous effort to build
-and are tightly coupled to specific programming languages.
-
-We present Stopify, a new approach to building web-based programming
-environments, that supports any language that compiles to JavaScript and
-generates source maps. Stopify transforms the JavaScript produced by an
-ordinary compiler and implements a runtime scheduler that adds support for
-pausing, resuming, stepping, and break-pointing at the source language level.
-
-Following this approach, we present a web-based debugger that supports three
-major languages.
-
-<br />
-
-Workshops
-===
----
-
-| ------------------------------------ |
-| Year ||     || Venue ||     || Title |
-| :--- || --- || :---- || --- || :---- |
-| 2017 ||     || [NEPLS](http://www.nepls.org/Events/31/) ||    || [**Stopify: Web-based Debugging For Free**](http://www.nepls.org/Events/31/abstracts.html#sbaxter) |
-| ------------------------------------ |
-
-<br />
-
 Education
 ===
 ---
