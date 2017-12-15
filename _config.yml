@@ -18,7 +18,7 @@ email: sbaxter@cs.umass.edu
 motto: > # bio
   I am a PhD student at the University of Massachusetts Amherst working
   in the [PLASMA lab](http://plasma.cs.umass.edu) with
-  [Arjun Guha](http://http://people.cs.umass.edu/~arjun). Before this I worked at
+  [Arjun Guha](http://people.cs.umass.edu/~arjun). Before this I worked at
   [iZotope, Inc.](https://www.izotope.com) developing desktop audio software 
   and hacking together Linux device drivers. My research interests are
   programming languages, building and verifying systems, and computer networks.
@@ -28,6 +28,7 @@ description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://baxtersa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  baxtersa
+twitter_username: samlbaxter
 gpg_public_key: /public-key.txt
 disqus:
   shortname: baxtersa-github-io
