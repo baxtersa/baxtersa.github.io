@@ -35,10 +35,17 @@ Contributions
 ===
 ---
 
+# Adapton
+[Adapton](https://github.com/cuplv/adapton.rust) is a library of incremental
+data structures for performant reuse of sub-computations. I ported probabilistic
+tries from the original OCaml implementation to Rust and wrote some preliminary
+benchmarks using tries to implement incremental computation over sets, finite
+maps, and graphs.
+
 # Frenetic
 [![frenetic](/images/frenetic.png)](http://www.frenetic-lang.org) is a family of
 languages and tools for network programming, providing a semantic foundation for
-trusting network programs. I hack on frenetic's compiler internals and
+trusting network programs. I hacked on frenetic's compiler internals and
 extensions to the NetKAT semantics, playing with expressions of network
 behaviors and constraints so that network administrators don't have to hate
 themselves.
@@ -67,6 +74,7 @@ Activities & Service
 ---
  - **PLDI Student Volunteer**. Volunteer. June 2017.
  - **ECOOP Summer School**. Attendee. June 2017.
+ - **UMass CICS New Student Committee**. Member. 2016 - Present.
  - **P4 Developer Day**. Attendee. November 2016.
  - **Women in Engineering and Computing Day**. Volunteer. October 2016.
  - **Oregon Programming Languages Summer School**. Attendee. June - July 2016.
