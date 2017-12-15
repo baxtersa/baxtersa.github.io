@@ -12,6 +12,44 @@ permalink: /about/
 
 <br />
 
+Research
+===
+---
+
+# [Stopify](http://stopify.org)
+Stopify is a JavaScript-to-JavaScript compiler that makes it possible for other
+compilers and Web-based IDEs to gracefully run long-running programs, stop
+non-terminating programs, support blocking I/O, set breakpoints, and step
+through code entirely in the browser. These features are enabled by Stopify's
+first-class continuation support for JavaScript. There are some interesting
+insights necessary to implement efficient continuations, get in touch if you
+want to discuss this!
+
+This work is currently in submission.
+
+<table>
+  <tr>
+    <td><a href="/stopify-draft.pdf">Preprint (do not redistribute)</a></td>
+    <td>|</td>
+    <td><a href="https://github.com/plasma-umass/Stopify">Source Code</a></td>
+  </tr>
+</table>
+
+<br />
+
+Workshops
+===
+---
+
+| ------------------------------------------------ |
+| Year ||     || Venue             ||     || Title |
+| :--- || --- || :---------------- || --- || :---- |
+| 2017 ||     || [IBM PL Day](http://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=8106) ||     || **Wrestling Control from the Browser: Compiling to JavaScript with Fewer Compromises** |
+| 2017 ||     || [NEPLS](http://www.nepls.org/Events/31/) ||    || [**Stopify: Web-based Debugging For Free**](http://www.nepls.org/Events/31/abstracts.html#sbaxter) |
+| ------------------------------------------------ |
+
+<br />
+
 Education
 ===
 ---
