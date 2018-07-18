@@ -25,27 +25,30 @@ first-class continuation support for JavaScript. There are some interesting
 insights necessary to implement efficient continuations, get in touch if you
 want to discuss this!
 
-This work is currently in submission.
+This work appeared at PLDI 2018.
 
 <table>
   <tr>
-    <td><a href="/stopify-draft.pdf">Preprint (do not redistribute)</a></td>
+    <td><a href="https://arxiv.org/pdf/1802.02974.pdf">Paper</a></td>
     <td>|</td>
     <td><a href="https://github.com/plasma-umass/Stopify">Source Code</a></td>
+    <td>|</td>
+    <td><a href="https://www.youtube.com/watch?v=M8PEWKQh2k4">Talk</a></td>
   </tr>
 </table>
 
 <br />
 
-Workshops
+Conferences & Workshops
 ===
 ---
 
 | ------------------------------------------------ |
 | Year ||     || Venue             ||     || Title |
 | :--- || --- || :---------------- || --- || :---- |
+| 2018 ||     || [PLDI 2018](https://pldi18.sigplan.org/event/pldi-2018-papers-putting-in-all-the-stops-execution-control-for-javascript) ||     || **Putting in All the Stops: Execution Control for JavaScript** |
 | 2017 ||     || [IBM PL Day](http://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=8106) ||     || **Wrestling Control from the Browser: Compiling to JavaScript with Fewer Compromises** |
-| 2017 ||     || [NEPLS](http://www.nepls.org/Events/31/) ||    || [**Stopify: Web-based Debugging For Free**](http://www.nepls.org/Events/31/abstracts.html#sbaxter) |
+| 2017 ||     || [NEPLS](http://www.nepls.org/Events/31/abstracts.html#sbaxter) ||    || **Stopify: Web-based Debugging For Free** |
 | ------------------------------------------------ |
 
 <br />
@@ -63,6 +66,8 @@ Experience
 ---
  - **Research Assistant** - University of Massachusetts Amherst. June 2016 - Present.  
    - with Prof. Arjun Guha
+ - **Research Intern** - IBM. May - August 2018.
+   - with Olivier Tardieu
  - **Software Engineer** - iZotope Inc. June 2014 - June 2016.
  - **Undergraduate Research Assistant** - Boston College. May - September 2013.
    - with Prof. Hao Jiang.

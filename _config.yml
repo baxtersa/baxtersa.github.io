@@ -16,14 +16,15 @@
 title: Sam Baxter
 email: sbaxter@cs.umass.edu
 motto: > # bio
-  I am a PhD student at the University of Massachusetts Amherst working
-  in the [PLASMA lab](http://plasma.cs.umass.edu) with
-  [Arjun Guha](http://people.cs.umass.edu/~arjun). Before this I worked at
-  [iZotope, Inc.](https://www.izotope.com) developing desktop audio software 
-  and hacking together Linux device drivers. My research interests are
-  programming languages, building and verifying systems, and computer networks.
+  I am a PhD student at the University of Massachusetts Amherst working in the
+  [PLASMA lab](http://plasma.cs.umass.edu) with [Arjun
+  Guha](http://people.cs.umass.edu/~arjun). I'm currently a Research Intern at
+  IBM working on Serverless Compositions. Before this I worked at [iZotope,
+  Inc.](https://www.izotope.com) developing desktop audio software and hacking
+  together Linux device drivers. My research interests are programming
+  languages, building and verifying systems, and computer networks.
 description:
-  Sam Baxter - UMass Amherst PhD student with Prof. Arjun Guha - PLASMA Lab - 
+  Sam Baxter - UMass Amherst PhD student with Prof. Arjun Guha - PLASMA Lab -
   Programming Languages, Systems, Networks, Verification
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://baxtersa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
