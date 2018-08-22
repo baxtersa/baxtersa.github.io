@@ -27,15 +27,9 @@ want to discuss this!
 
 This work appeared at PLDI 2018.
 
-<table>
-  <tr>
-    <td><a href="https://arxiv.org/pdf/1802.02974.pdf">Paper</a></td>
-    <td>|</td>
-    <td><a href="https://github.com/plasma-umass/Stopify">Source Code</a></td>
-    <td>|</td>
-    <td><a href="https://www.youtube.com/watch?v=M8PEWKQh2k4">Talk</a></td>
-  </tr>
-</table>
+<a href="https://arxiv.org/pdf/1802.02974.pdf">Paper</a> | <a
+href="https://github.com/plasma-umass/Stopify">Source Code</a> | <a
+href="https://www.youtube.com/watch?v=M8PEWKQh2k4">Talk</a>
 
 <br />
 
@@ -43,13 +37,13 @@ Conferences & Workshops
 ===
 ---
 
-| ------------------------------------------------ |
-| Year ||     || Venue             ||     || Title |
-| :--- || --- || :---------------- || --- || :---- |
-| 2018 ||     || [PLDI 2018](https://pldi18.sigplan.org/event/pldi-2018-papers-putting-in-all-the-stops-execution-control-for-javascript) ||     || **Putting in All the Stops: Execution Control for JavaScript** |
-| 2017 ||     || [IBM PL Day](http://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=8106) ||     || **Wrestling Control from the Browser: Compiling to JavaScript with Fewer Compromises** |
-| 2017 ||     || [NEPLS](http://www.nepls.org/Events/31/abstracts.html#sbaxter) ||    || **Stopify: Web-based Debugging For Free** |
-| ------------------------------------------------ |
+| -------------------------------- |
+| Year | Venue             | Title |
+| :--- | :---------------- | :---- |
+| 2018 | [PLDI 2018](https://pldi18.sigplan.org/event/pldi-2018-papers-putting-in-all-the-stops-execution-control-for-javascript) | **Putting in All the Stops: Execution Control for JavaScript** |
+| 2017 | [IBM PL Day](http://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=8106) | **Wrestling Control from the Browser: Compiling to JavaScript with Fewer Compromises** |
+| 2017 | [NEPLS](http://www.nepls.org/Events/31/abstracts.html#sbaxter) | **Stopify: Web-based Debugging For Free** |
+| -------------------------------- |
 
 <br />
 

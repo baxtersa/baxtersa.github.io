@@ -79,11 +79,11 @@ allocator's shared library to get things to work.
 
 Now let's see this in action running `less` in a shell:
 
-| ------------------------------------------------------------------------------------------: |
-|   PID ||    USER || PR || NI ||    VIRT ||  RES || %CPU || %MEM ||   TIME+ ||  S || COMMAND |
-| ----: || ------: || -: || -: || ------: || ---: || ---: || ---: || ------: || -: || ------: |
-| 19321 ||  usernm || 20 ||  0 || 1049.7m || 4.2m ||  0.0 ||  0.1 || 0:00.00 ||  S ||    less |
-| ------------------------------------------------------------------------------------------: |
+| --------------------------------------------------------------------------------: |
+|   PID |    USER | PR | NI |    VIRT |  RES | %CPU | %MEM |   TIME+ |  S | COMMAND |
+| ----: | ------: | -: | -: | ------: | ---: | ---: | ---: | ------: | -: | ------: |
+| 19321 |  usernm | 20 |  0 | 1049.7m | 4.2m |  0.0 |  0.1 | 0:00.00 |  S |    less |
+| --------------------------------------------------------------------------------: |
 
 It should be obvious that `less` doesn't require `1GB` of memory. This shows up
 because we statically allocate a `1GB` heap when we load our allocator,

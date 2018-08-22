@@ -125,17 +125,17 @@ event. The Event Queue is _blocked_ on processing these **Stop** events until
 queuing events on user interaction, they never get handled, so the page appears
 unresponsive to user input.
 
-| ---------------------------- |
-|   Event Queue  || || Runtime |
-| :------------: || || :-----: |
-|    **Stop**    || || `i=147` |
-| :------------: || || :-----: |
-|    **Stop**    || ||   ...   |
-| :------------: || || :-----: |
-|  \_\_\_\_\_\_  || ||  `i=0`  |
-| :------------: || || :-----: |
-|    **Run**     || || `foo()` |
-| ---------------------------- |
+| ------------------------ |
+|   Event Queue  | Runtime |
+| :------------: | :-----: |
+|    **Stop**    | `i=147` |
+| :------------: | :-----: |
+|    **Stop**    |   ...   |
+| :------------: | :-----: |
+|  \_\_\_\_\_\_  |  `i=0`  |
+| :------------: | :-----: |
+|    **Run**     | `foo()` |
+| ------------------------ |
 
 <br />
 Environments like CodePen try to detect this type of behavior, and terminate the
