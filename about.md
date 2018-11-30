@@ -16,7 +16,19 @@ Research
 ===
 ---
 
-# [Stopify](http://stopify.org)
+# Serverless Computing
+I have worked on a number of projects in the space of systems and semantics
+for serverless computing. This worked includes formalizing the execution
+semantics of serverless functions, implementing DSLs and JavaScript language
+extensions for programming serverless compositions, and implementing
+performance improvements on the OpenWhisk platform for certain patterns of
+[Conductor](https://github.com/apache/incubator-openwhisk/blob/master/docs/conductors.md)
+actions.
+
+Some of this work is [open sourced](https://github.com/baxtersa/distribufy),
+while parts are currently in submission for publication.
+
+# [Stopify](https://www.stopify.org)
 Stopify is a JavaScript-to-JavaScript compiler that makes it possible for other
 compilers and Web-based IDEs to gracefully run long-running programs, stop
 non-terminating programs, support blocking I/O, set breakpoints, and step
@@ -40,6 +52,7 @@ Conferences & Workshops
 | -------------------------------- |
 | Year | Venue             | Title |
 | :--- | :---------------- | :---- |
+| 2018 | [Draft](./foundations-of-serverless-draft-nov17.pdf) | **Formal Foundations of Serverless Computing** |
 | 2018 | [PLDI 2018](https://pldi18.sigplan.org/event/pldi-2018-papers-putting-in-all-the-stops-execution-control-for-javascript) | **Putting in All the Stops: Execution Control for JavaScript** |
 | 2017 | [IBM PL Day](http://researcher.watson.ibm.com/researcher/view_group_subpage.php?id=8106) | **Wrestling Control from the Browser: Compiling to JavaScript with Fewer Compromises** |
 | 2017 | [NEPLS](http://www.nepls.org/Events/31/abstracts.html#sbaxter) | **Stopify: Web-based Debugging For Free** |
@@ -50,7 +63,7 @@ Conferences & Workshops
 Education
 ===
 ---
- - **University of Massachusetts** - M.S./Ph.D. in Computer Science. In Progress.
+ - **University of Massachusetts** - M.S. in Computer Science. December 2018.
  - **Boston College** - B.A. in Computer Science and B.S. in Mathematics. May 2014.
 
 <br />
@@ -58,7 +71,8 @@ Education
 Experience
 ===
 ---
- - **Research Assistant** - University of Massachusetts Amherst. June 2016 - Present.  
+ - **Software Engineer** - iZotope Inc. January 2019 - Present.
+ - **Research Assistant** - University of Massachusetts Amherst. June 2016 - December 2018.
    - with Prof. Arjun Guha
  - **Research Intern** - IBM. May - August 2018.
    - with Olivier Tardieu
