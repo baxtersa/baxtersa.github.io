@@ -14,17 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sam Baxter
-email: sbaxter@cs.umass.edu
+email: baxtersa14@gmail.com
 motto: > # bio
-  I am a software engineer at [iZotope, Inc.](https://www.izotope.com), where
-  I work on audio hardware units and mobile applications. I spent 2.5 years
-  as a PhD student at the University of Massachusetts Amherst, working in the
+  I am a software engineer at [iZotope, Inc.](https://www.izotope.com), where I
+  work on audio hardware devices and mobile applications. I spent 2.5 years as
+  a PhD student at the University of Massachusetts Amherst, working in the
   [PLASMA lab](http://plasma.cs.umass.edu) with [Arjun
   Guha](http://people.cs.umass.edu/~arjun), and graduated with a Master's
-  degree before returning to industry. I spent the Summer of 2018 as a
-  Research Intern at IBM working on Serverless Compositions. I also worked a
-  two year stint at iZotope before graduate school, developing desktop audio
-  software and hacking together Linux device drivers.
+  degree before returning to industry. I spent the Summer of 2018 as a Research
+  Intern at IBM working on Serverless Compositions. I also worked a two year
+  stint at iZotope before graduate school, developing desktop audio software
+  and hacking together Linux device drivers.
 description:
   Sam Baxter - M.S. Computer Science - iZotope - Systems, Serverless,
   Programming Languages - He/him/his
