@@ -71,7 +71,7 @@ Education
 Experience
 ===
 ---
- - **Software Engineer** - iZotope Inc. January 2019 - Present.
+ - **Engineering Manager** - iZotope Inc. January 2019 - Present.
  - **Research Assistant** - University of Massachusetts Amherst. June 2016 - December 2018.
    - with Prof. Arjun Guha
  - **Research Intern** - IBM. May - August 2018.
